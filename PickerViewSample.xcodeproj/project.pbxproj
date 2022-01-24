@@ -16,6 +16,7 @@
 		EE2E23D42790935800A72222 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2E23D22790935800A72222 /* LaunchScreen.storyboard */; };
 		EE2E23DF2790935800A72222 /* PickerViewSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2E23DE2790935800A72222 /* PickerViewSampleTests.swift */; };
 		EE2E23EA2790935800A72222 /* PickerViewSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2E23E92790935800A72222 /* PickerViewSampleUITests.swift */; };
+		EE2E23F8279098E600A72222 /* ViewController+PickerViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2E23F7279098E600A72222 /* ViewController+PickerViewDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		EE2E23E52790935800A72222 /* PickerViewSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PickerViewSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE2E23E92790935800A72222 /* PickerViewSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewSampleUITests.swift; sourceTree = "<group>"; };
 		EE2E23EB2790935800A72222 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2E23F7279098E600A72222 /* ViewController+PickerViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+PickerViewDelegate.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				EE2E23C42790935600A72222 /* AppDelegate.swift */,
 				EE2E23C62790935600A72222 /* SceneDelegate.swift */,
 				EE2E23C82790935600A72222 /* ViewController.swift */,
+				EE2E23F7279098E600A72222 /* ViewController+PickerViewDelegate.swift */,
 				EE2E23CA2790935600A72222 /* Main.storyboard */,
 				EE2E23D02790935700A72222 /* Assets.xcassets */,
 				EE2E23D22790935800A72222 /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2E23F8279098E600A72222 /* ViewController+PickerViewDelegate.swift in Sources */,
 				EE2E23CF2790935600A72222 /* PickerViewSample.xcdatamodeld in Sources */,
 				EE2E23C92790935600A72222 /* ViewController.swift in Sources */,
 				EE2E23C52790935600A72222 /* AppDelegate.swift in Sources */,
